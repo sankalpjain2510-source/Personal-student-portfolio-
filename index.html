@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student portfolio with a personal introduction, education, projects, interests, and contact information.">
+  <title>Home | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Student Portfolio</a>
+    <nav aria-label="Main navigation">
+      <a aria-current="page" href="index.html">About</a>
+      <a href="project.html">Projects</a>
+      <a href="hobbies.html">Hobbies &amp; Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hello, I’m <span class="accent">[Your Name]</span>.</h1>
+        <p class="intro">I’m a student who enjoys learning, exploring new ideas, and turning curiosity into projects. This portfolio is a little introduction to me and the things I create.</p>
+        <a class="button" href="project.html">Explore my projects <span aria-hidden="true">→</span></a>
+      </div>
+      <figure class="portrait-card">
+        <img src="profile-placeholder.svg" alt="Illustrated profile photo placeholder; replace with your own photo">
+        <figcaption>Your photo goes here</figcaption>
+      </figure>
+    </section>
+
+    <section class="section" aria-labelledby="bio-heading">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2 id="bio-heading">My bio</h2>
+      <p class="section-intro">I’m currently studying at <strong>[School Name]</strong> in <strong>[Grade / Year]</strong>. I’m curious about how things work, especially in science and computing, and I like sharing what I learn through hands-on projects.</p>
+    </section>
+
+    <section class="section" aria-labelledby="education-heading">
+      <p class="eyebrow">MY LEARNING JOURNEY</p>
+      <h2 id="education-heading">Educational summary</h2>
+      <div class="info-grid">
+        <article class="info-card">
+          <span class="card-icon" aria-hidden="true">✦</span>
+          <h3>Current studies</h3>
+          <p><strong>[School Name]</strong><br>[Grade / Year] · [City, Country]</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon" aria-hidden="true">◎</span>
+          <h3>Subjects I enjoy</h3>
+          <p>[Science], [Computer Studies], [Mathematics], and other subjects you enjoy.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon" aria-hidden="true">↗</span>
+          <h3>What I’m learning</h3>
+          <p>[Add a skill, class, achievement, or topic you are currently exploring.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="callout">
+      <div>
+        <p class="eyebrow">MADE WITH CURIOSITY</p>
+        <h2>There’s more to explore.</h2>
+        <p>Take a look at my science and computer project showcase.</p>
+      </div>
+      <a class="button button-light" href="project.html">See the projects <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year">2026</span> [Your Name] · Student Portfolio</p></footer>
+</body>
+</html>

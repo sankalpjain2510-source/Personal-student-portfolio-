@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">A friendly illustrated person on a soft purple background.</desc>
+  <rect width="400" height="400" rx="48" fill="#eeeaff"/>
+  <circle cx="200" cy="155" r="78" fill="#f2c6a8"/>
+  <path d="M122 151c0-59 35-96 82-96 49 0 79 38 79 91-22-9-39-29-47-51-23 27-62 45-114 47z" fill="#342b52"/>
+  <path d="M72 400c8-94 55-145 128-145s120 51 128 145" fill="#7057d9"/>
+  <circle cx="172" cy="159" r="5" fill="#342b52"/><circle cx="228" cy="159" r="5" fill="#342b52"/>
+  <path d="M180 190q20 16 40 0" fill="none" stroke="#a65d57" stroke-linecap="round" stroke-width="5"/>
+</svg>
